@@ -44,4 +44,11 @@ class Functions {
             println("Param ${it.name}  of type ${it.returnType} with value ${it.get(customObject)}")
         }
     }
+
+    fun lambdaSyntax() {
+        val sum: (Int, Int) -> Int = { x, y -> x + y }
+        //eq val sum = { x: Int, y: Int -> x + y }
+        println(sum(2,2))
+    }
+
 }

@@ -6,5 +6,6 @@ fun main() {
         infixFuncAndRegex()
         typeExtendsFuncAndUnitParameters()
         printParamsReflection()
+        lambdaSyntax()
     }
 }
